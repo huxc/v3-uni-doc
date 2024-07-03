@@ -15,7 +15,7 @@ export default defineConfig({
     },
     logo: "/svg/logo.svg",
     nav: [
-        { text: "v3-admin-el", link: "http://180.100.200.14/v3Press/" },
+        { text: "v3-admin-el", link: "https://huxc.github.io/v3Press/" },
         { text: "vue", link: "https://cn.vuejs.org/" },
         { text: "uni-app", link: "https://uniapp.dcloud.net.cn/quickstart-cli.html" },
         { text: "v1.0.0",link: "" },
@@ -48,7 +48,7 @@ export default defineConfig({
       {
         text: "其他",
         items:[
-          { text: "v3-admin-el", link: "https://www.baidu.com" },
+          { text: "v3-admin-el", link: "https://huxc.github.io/v3Press/" },
         ]
       }
     ],
