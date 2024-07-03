@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a4 as n}from"./chunks/framework.DqdwzfRI.js";const c=JSON.parse('{"title":"网络请求","description":"","frontmatter":{},"headers":[],"relativePath":"docs/request.md","filePath":"docs/request.md"}'),h={name:"docs/request.md"},p=n("",38),t=[p];function l(e,k,d,r,E,g){return a(),i("div",null,t)}const y=s(h,[["render",l]]);export{c as __pageData,y as default};
