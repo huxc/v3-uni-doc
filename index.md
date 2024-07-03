@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 快速了解
-      link: /docs/intro.md
+      link: /markdown/intro.md
 
     - theme: alt
       text: 在GitLab上查看
@@ -34,24 +34,24 @@ features:
   - icon: <span class="i-material-symbols-light:alt-route-rounded"></span>
     title: 路由
     details: 使用router-next提供类全局组件，路由跳转，路由守卫，让开发习惯与 vue-router 保持一致
-    link: /docs/router/
+    link: /markdown/router/
     linkText: router-next
 
   - icon: <span class="i-material-symbols-light:network-manage"></span>
     title: API请求库
     details: 请求库使用uni-network，并进行策略封装。实现去重，全局loading，全局错误提醒，无感刷新token，微服务多域名等。
-    link: /docs/request/
+    link: /markdown/request/
     linkText: request
 
   - icon: <span class="i-vscode-icons:file-type-unocss"></span>
     title: UnoCss
     details: 使用原子化 CSS 引擎，大幅减少样式文件体积，实现按需加载，提升应用性能和开发效率。为uniapp制定1单位=1rpx
-    link: /docs/style/
+    link: /markdown/style/
     linkText: UnoCss
 
   - icon: <span class="i-material-symbols-light:component-exchange"></span>
     title: 组件
     details: 预设了wot-ui、Z-paging等高质量组件库
-    link: /docs/component/
+    link: /markdown/component/
     linkText: components
 ---

@@ -24,25 +24,25 @@ export default defineConfig({
       {
         text: "指南",
         items: [
-          { text: "简介", link: "/docs/intro.md" },
-          { text: "快速上手", link: "/docs/start.md" },
-          { text: "样式", link: "/docs/style.md" },
-          { text: "图标", link: "/docs/icon.md" },
-          { text: "路由", link: "/docs/router.md" },
-          { text: "组件库", link: "/docs/component.md" },
-          { text: "环境变量", link: "/docs/envs.md" },
-          { text: "状态管理", link: "/docs/store.md" },
-          { text: "网络封装", link: "/docs/request.md" },
-          { text: "API调用", link: "/docs/api.md" },
-          { text: "平台编译", link: "/docs/plug.md" },
-          { text: "实战指南", link: "/docs/practice.md" },
+          { text: "简介", link: "/markdown/intro.md" },
+          { text: "快速上手", link: "/markdown/start.md" },
+          { text: "样式", link: "/markdown/style.md" },
+          { text: "图标", link: "/markdown/icon.md" },
+          { text: "路由", link: "/markdown/router.md" },
+          { text: "组件库", link: "/markdown/component.md" },
+          { text: "环境变量", link: "/markdown/envs.md" },
+          { text: "状态管理", link: "/markdown/store.md" },
+          { text: "网络封装", link: "/markdown/request.md" },
+          { text: "API调用", link: "/markdown/api.md" },
+          { text: "平台编译", link: "/markdown/plug.md" },
+          { text: "实战指南", link: "/markdown/practice.md" },
         ]
       },
       {
         text: "扩展",
         items:[
             { text: "图表", link: "https://limeui.qcoon.cn/#/" },
-            // { text: 'TypeScript', link:'/docs/ts.md'},
+            // { text: 'TypeScript', link:'/markdown/ts.md'},
         ]
       },
       {
