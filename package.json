@@ -1,0 +1,18 @@
+{
+  "name": "docs",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "@iconify/json": "^2.2.222",
+    "deploy-cli-service": "^1.4.1",
+    "unocss": "^0.61.0",
+    "vitepress": "^1.2.3"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview",
+    "deploy:dev": "deploy-cli-service deploy --mode dev"
+  }
+}
