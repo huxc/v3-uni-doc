@@ -6,7 +6,7 @@ export default defineConfig({
   base: "/v3-uni-doc/",
   title: "v3-uni-template",
   titleTemplate: " v3-uni-template",
-  head: [["link", { rel: "icon", href: "/svg/logo.svg" }]],
+  head: [["link", { rel: "icon", href: "/v3-uni-doc/svg/logo.svg" }]],
   description: "v3-uni-template 文档",
   lang: "zh-CH",
   themeConfig: {
