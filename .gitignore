@@ -1,5 +1,5 @@
 node_modules
 .temp
 cache
-./vitepress/theme
+theme
 deploy.config.js

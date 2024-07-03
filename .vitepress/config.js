@@ -3,7 +3,7 @@ import { defineConfig } from "vitepress";
 
 
 export default defineConfig({
-  base: "/uni/",
+  base: "/v3-uni-doc/",
   title: "v3-uni-template",
   titleTemplate: " v3-uni-template",
   head: [["link", { rel: "icon", href: "/uni/imgs/logo.png" }]],
