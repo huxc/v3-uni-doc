@@ -1,1 +1,0 @@
-import{_ as s,c as i,o as a,a4 as n,a7 as p}from"./chunks/framework.DqdwzfRI.js";const y=JSON.parse('{"title":"按平台编译","description":"","frontmatter":{},"headers":[],"relativePath":"docs/plug.md","filePath":"docs/plug.md"}'),l={name:"docs/plug.md"},t=n("",23),h=[t];function k(e,E,d,r,g,c){return a(),i("div",null,h)}const u=s(l,[["render",k]]);export{y as __pageData,u as default};

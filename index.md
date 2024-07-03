@@ -7,7 +7,7 @@ hero:
   name: "v3-uni-template"
   tagline: 为uni-app打造开箱即用的模版框架
   image:
-    src: /imgs/logo.png
+    src: /svg/logo.svg
     alt: uni
   actions:
     - theme: brand
