@@ -1,6 +1,6 @@
 # 简介
 
-`v3-uni-template`是一个为`uni-app`打造的项目模版框架。
+`v3-uni-dove`是一个为`uni-app`打造的项目模版框架。
 
 ## 特点
 

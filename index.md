@@ -4,7 +4,7 @@ layout: home
 titleTemplate: 一款轻量易用的中后台模版
 
 hero:
-  name: "v3-uni-template"
+  name: "v3-uni-dove"
   tagline: 为uni-app打造开箱即用的模版框架
   image:
     src: /svg/logo.svg
@@ -16,7 +16,7 @@ hero:
 
     - theme: alt
       text: 在GitLab上查看
-      link: http://192.168.1.223/huxiaochuan/v3-uni-template
+      link: http://192.168.1.223/huxiaochuan/v3-uni-dove
 
 features:
   - icon: <span class="i-mdi:lightning-bolt-outline"></span>
