@@ -15,8 +15,8 @@ hero:
       link: /markdown/intro.md
 
     - theme: alt
-      text: 在GitLab上查看
-      link: http://192.168.1.223/huxiaochuan/v3-uni-dove
+      text: 在GitHub上查看
+      link: https://github.com/huxc/uni-dove
 
 features:
   - icon: <span class="i-mdi:lightning-bolt-outline"></span>
