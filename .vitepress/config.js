@@ -6,14 +6,14 @@ export default defineConfig({
   base: "/v3-uni-doc/",
   title: "v3-uni-template",
   titleTemplate: " v3-uni-template",
-  head: [["link", { rel: "icon", href: "/v3-uni-doc/svg/logo.svg" }]],
+  head: [["link", { rel: "icon", href: "/v3-uni-doc/imgs/logo.png" }]],
   description: "v3-uni-template 文档",
   lang: "zh-CH",
   themeConfig: {
     search: {
       provider: "local",
     },
-    logo: "/svg/logo.svg",
+    logo: "/imgs/logo.png",
     nav: [
         { text: "v3-admin-el", link: "http://180.100.200.14/v3Press/" },
         { text: "vue", link: "https://cn.vuejs.org/" },
