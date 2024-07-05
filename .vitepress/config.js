@@ -48,7 +48,7 @@ export default defineConfig({
       {
         text: "其他",
         items:[
-          { text: "v3-admin-el", link: "https://www.baidu.com" },
+          { text: "v3-admin-el", link: "http://180.100.200.14/v3Press/" },
         ]
       }
     ],
