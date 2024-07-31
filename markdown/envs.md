@@ -4,12 +4,26 @@
 
 ## 定义环境变量
 
-`.env`文件定义在跟目标 `/env` 文件夹下面：<br/>
+你可以在你的项目根目录 `/env` 中放置下列文件来指定环境变量：
 
-- `.env`：默认的环境变量
-- `.env.production`：生产环境的变量
-- `.env.development`：开发环境的变量
-- `.env.local`：本地覆盖，可以覆盖 `.env` 文件中的默认变量，不提交到版本控制。
+```sh
+.env                # 在所有的环境中被载入
+.env.local          # 在所有的环境中被载入，但会被 git 忽略
+.env.[mode]         # 只在指定的模式中被载入
+.env.[mode].local   # 只在指定的模式中被载入，但会被 git 忽略
+```
+
+## 优先级
+
+在加载环境变量时，`Vite` 会按照以下优先级从高到低加载：
+
+```sh
+.env.local
+.env.[mode].local   # 如 .env.development.local、.env.production.local
+.env.[mode]         # 如 .env.development、.env.production
+.env
+
+```
 
 示例内容：
 
@@ -24,16 +38,11 @@ VITE_API_DOMAIN_JSON = '{
 }'
 ```
 
-## 优先级
-
-在加载环境变量时，`Vite` 会按照以下优先级从高到低加载：
-
-- `.env.local`
-- `.env.[mode].local`（如 `.env.development.local`、`.env.production.local`）
-- `.env.[mode]`（如 `.env.development`、`.env.production`）
-- `.env`
-
 ## 使用环境变量
+
+::: danger 提示
+`import.meta.env` 读取环境变量默认都是字符串，模版项目已经帮助你自动转换变量类型。可直接使用值
+:::
 
 在 `Vite` 中，环境变量需要以 `VITE\_ `开头。你可以通过 `import.meta.env` 访问这些变量。例如：
 
@@ -42,7 +51,6 @@ console.log(import.meta.env.VITE_MPWX_APPID);
 console.log(import.meta.env.VITE_API_DOMAIN_JSON);
 ```
 
-`import.meta.env` 在读取环境变量默认都是字符串，项目已经帮助你自动转换变量类型。可直接使用值<br/>
 示例内容：
 
 ```js
