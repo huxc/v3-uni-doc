@@ -10,5 +10,5 @@
 ## 安装
 
 ```sh
-git clone http://192.168.1.223/huxiaochuan/v3-uni-dove
+git clone https://github.com/huxc/uni-dove.git
 ```
